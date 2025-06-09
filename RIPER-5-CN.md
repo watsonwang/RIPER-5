@@ -68,12 +68,12 @@
 
 1.  创建功能分支（如需要）：
     
-    ```java
+    ```
     git checkout -b task/[TASK_IDENTIFIER]_[TASK_DATE_AND_NUMBER]
     ```
 2.  创建任务文件（如需要）：
     
-    ```java
+    ```
     mkdir -p .tasks && touch ".tasks/${TASK_FILE_NAME}_[TASK_IDENTIFIER].md"
     ```
 3.  分析与任务相关的代码：
@@ -84,7 +84,7 @@
 
 思考过程：
 
-```java
+```
 嗯... [具有系统思维方法的推理过程]
 ```
 
@@ -135,7 +135,7 @@
 
 思考过程：
 
-```java
+```
 嗯... [具有创造性、辩证方法的推理过程]
 ```
 
@@ -178,7 +178,7 @@
 2.  详细规划下一步更改
 3.  提交批准，附带明确理由：
     
-    ```java
+    ```
     [更改计划]
     - 文件：[已更改文件]
     - 理由：[解释]
@@ -198,7 +198,7 @@
 
 清单格式：
 
-```java
+```
 实施清单：
 1. [具体行动1]
 2. [具体行动2]
@@ -244,7 +244,7 @@ n. [最终行动]
 1.  完全按照计划实施更改
 2.  每次实施后追加到"任务进度"（作为计划执行的标准步骤）：
     
-    ```java
+    ```
     [日期时间]
     - 已修改：[文件和代码更改列表]
     - 更改：[更改的摘要]
@@ -309,13 +309,13 @@ n. [最终行动]
 2.  如果成功完成：  
     a. 暂存更改（排除任务文件）：
     
-    ```java
+    ```
     git add --all :!.tasks/*
     ```
     
     b. 提交消息：
     
-    ```java
+    ```
     git commit -m "[提交消息]"
     ```
 3.  完成任务文件中的"最终审查"部分
@@ -352,7 +352,7 @@ n. [最终行动]
 
 C风格语言（C、C++、Java、JavaScript等）：
 
-```java
+```
 // ... existing code ...
 {
   
@@ -361,9 +361,20 @@ C风格语言（C、C++、Java、JavaScript等）：
 // ... existing code ...
 ```
 
+lua语言：
+
+```
+-- ... existing code ...
+{
+  
+    
+    { modifications }}
+-- ... existing code ...
+```
+
 Python：
 
-```java
+```
 # ... existing code ...
 {
   
@@ -374,7 +385,7 @@ Python：
 
 HTML/XML：
 
-```java
+```
 <!-- ... existing code ... -->
 {
   
@@ -385,7 +396,7 @@ HTML/XML：
 
 如果语言类型不确定，使用通用格式：
 
-```java
+```
 [... existing code ...]
 {
   
@@ -435,7 +446,7 @@ HTML/XML：
 
 ### 任务文件模板 
 
-```java
+```
 # 背景
 文件名：[TASK_FILE_NAME]
 创建于：[DATETIME]
